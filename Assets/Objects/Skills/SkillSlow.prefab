@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2175455722250309259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5962984710152744118}
+  - component: {fileID: 2008486703823873674}
+  - component: {fileID: 6849814620100608046}
+  m_Layer: 0
+  m_Name: SkillSlow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5962984710152744118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2175455722250309259}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2008486703823873674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2175455722250309259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bfcc5098a103a94db030af0bf9a84d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cost: 1
+  _powerUpObject: {fileID: 6849814620100608046}
+--- !u!114 &6849814620100608046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2175455722250309259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0475e6e729ac51b4793376f745a0398f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _name: SkillSlow
+  Openable: 1
+  UnlockCost: 100
+  _baseCost: 0
+  PowerUps:
+  - Name: Power
+    Levels:
+    - Level: 1
+      Increase: B * 0.8
+      Cost: 10
+    - Level: 2
+      Increase: B * 0.7
+      Cost: 15
+    - Level: 3
+      Increase: B * 0.65
+      Cost: 23
+    - Level: 4
+      Increase: B * 0.57
+      Cost: 31
+    - Level: 5
+      Increase: B * 0.5
+      Cost: 45
+    - Level: 6
+      Increase: B * 0.4
+      Cost: 50
+    - Level: 7
+      Increase: B * 0.3
+      Cost: 60
+    - Level: 8
+      Increase: B * 0.1
+      Cost: 100
+  - Name: Duration
+    Levels:
+    - Level: 8
+      Increase: B + L
+      Cost: 

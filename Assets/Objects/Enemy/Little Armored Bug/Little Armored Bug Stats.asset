@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6e28d1d0a63e714488753e2ce515a6e, type: 3}
+  m_Name: Little Armored Bug Stats
+  m_EditorClassIdentifier: 
+  Name: Little Armored Bug
+  _requireComponents: 0200000001000000
+  _enabledComponents: 02000000
+  HPMax: 20
+  HPMin: 10
+  Attacks:
+  - {fileID: 11400000, guid: 796433050967a2143a3bbd8196b6b63b, type: 2}
+  StrengthMax: 0.5
+  StrengthMin: 0.2
+  GroundSpeedMax: 0.2
+  GroundSpeedMin: 0.01
+  FlyingSpeedMax: 0
+  FlyingSpeedMin: 0
+  CeilingSpeedMax: 0
+  CeilingSpeedMin: 0
+  _whenTurnedOff: 
+  _willBeTurnedOn: 

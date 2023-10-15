@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b853223fe486c7540838e06426dffca0, type: 3}
+  m_Name: Little Worm Attack Base
+  m_EditorClassIdentifier: 
+  AttackType: 0
+  AttackTargets: 
+  ViewRadius: 1
+  AttackSpeed: 6
+  AttackDamage: 4
+  AttackRange: 0.15
+  AttackIndex: 1
+  Projectile: {fileID: 0}

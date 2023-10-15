@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20b2a00bb2eb50d46831d7cc811e877e, type: 3}
+  m_Name: LevelPrefabs
+  m_EditorClassIdentifier: 
+  Leaves: {fileID: 4615886243740403361, guid: 9ab3d1745dcb7d64d860f4711b0ce1ec, type: 3}
+  NonFruit: {fileID: 5372298569074442815, guid: 0e65cd5cc23d99d4cb942c0a6fc15be5, type: 3}
+  _tinyTinyLevel: {fileID: 1127770995734233903, guid: 99f723aadb030fd4090e311200b3e53d, type: 3}
+  _tinyLevelTopDecor: {fileID: 4644821293546267146, guid: 094a352ee90dd674ea044ecf17dc2954, type: 3}
+  _tinyLevelBottomDecor: {fileID: 5983339932816860567, guid: 6cb6e49fc0eb2f248a2cf895f76760c0, type: 3}
+  _littleTinyLevel: {fileID: 2961439222259844213, guid: ccf8e33a1316dae4eb07fdbb00c35efb, type: 3}
+  _littleLevelTopDecor: {fileID: 3645506616368113561, guid: 4f77d8f68d451304c9453d2561cba732, type: 3}
+  _littleLevelBottomDecor: {fileID: 627277045654566921, guid: e6e8e093f58c34c4e833a748698e6f85, type: 3}
+  _tinyToTiny: {fileID: 4644821293546267146, guid: ba22e18aec5da994982852f15e71b0e0, type: 3}
+  _littleToTiny: {fileID: 4588307054191238064, guid: 3222c0694f6d7e34fa8897a55279d38b, type: 3}
+  _littleToLittle: {fileID: 3137321760149219446, guid: 65fa67c872a83f744b9bb665b39152aa, type: 3}
