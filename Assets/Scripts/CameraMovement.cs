@@ -70,8 +70,8 @@ namespace RapaxFructus
             {
                 _isWiggling = false;
                 Camera.main.gameObject.transform.SetPositionAndRotation
-                    (Vector3.Lerp(Camera.main.gameObject.transform.position, _target.transform.position, MovementSpeed),
-                    Quaternion.Lerp(Camera.main.gameObject.transform.rotation, _target.transform.rotation, RotationSpeed));
+                    (Vector3.Lerp(Camera.main.gameObject.transform.position, _target.transform.position, MovementSpeed * Time.deltaTime * 100),
+                    Quaternion.Lerp(Camera.main.gameObject.transform.rotation, _target.transform.rotation, RotationSpeed * Time.deltaTime * 100));
                 Transparent.color = new Color(Transparent.color.r, Transparent.color.g, Transparent.color.b, Mathf.Lerp(Transparent.color.a, _target.Transparent, TransparentSpeed));
             }
             else
